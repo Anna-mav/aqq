@@ -1,0 +1,11 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+    <path d="M100 400 Q150 350 200 400 T300 400 Q350 350 400 400"
+          fill="none" stroke="#6c5ce7" stroke-width="4">
+        <animate attributeName="stroke-dasharray" from="0,1000" to="1000,0" dur="7s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="100" cy="400" r="10" fill="#6c5ce7">
+        <animate attributeName="cx" from="100" to="400" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="cy" from="400" to="400" dur="7s" repeatCount="indefinite"/>
+    </circle>
+</svg>
